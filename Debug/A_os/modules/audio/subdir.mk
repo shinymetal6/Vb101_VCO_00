@@ -1,0 +1,87 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/distortion.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/echo.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/flanger.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/iir.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/noise.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/oscillator_core.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/oscillators.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/pitch_shift.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/reverb.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/tremolo.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/vca.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/vibrato.c \
+/Devel/Stm32_14.0_A_os/A_os/modules/audio/wah.c 
+
+OBJS += \
+./A_os/modules/audio/distortion.o \
+./A_os/modules/audio/echo.o \
+./A_os/modules/audio/flanger.o \
+./A_os/modules/audio/iir.o \
+./A_os/modules/audio/noise.o \
+./A_os/modules/audio/oscillator_core.o \
+./A_os/modules/audio/oscillators.o \
+./A_os/modules/audio/pitch_shift.o \
+./A_os/modules/audio/reverb.o \
+./A_os/modules/audio/tremolo.o \
+./A_os/modules/audio/vca.o \
+./A_os/modules/audio/vibrato.o \
+./A_os/modules/audio/wah.o 
+
+C_DEPS += \
+./A_os/modules/audio/distortion.d \
+./A_os/modules/audio/echo.d \
+./A_os/modules/audio/flanger.d \
+./A_os/modules/audio/iir.d \
+./A_os/modules/audio/noise.d \
+./A_os/modules/audio/oscillator_core.d \
+./A_os/modules/audio/oscillators.d \
+./A_os/modules/audio/pitch_shift.d \
+./A_os/modules/audio/reverb.d \
+./A_os/modules/audio/tremolo.d \
+./A_os/modules/audio/vca.d \
+./A_os/modules/audio/vibrato.d \
+./A_os/modules/audio/wah.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+A_os/modules/audio/distortion.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/distortion.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/echo.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/echo.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/flanger.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/flanger.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/iir.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/iir.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/noise.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/noise.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/oscillator_core.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/oscillator_core.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/oscillators.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/oscillators.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/pitch_shift.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/pitch_shift.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/reverb.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/reverb.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/tremolo.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/tremolo.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/vca.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/vca.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/vibrato.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/vibrato.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+A_os/modules/audio/wah.o: /Devel/Stm32_14.0_A_os/A_os/modules/audio/wah.c A_os/modules/audio/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DVB1xx -DUSE_HAL_DRIVER -DSTM32H743xx -DARM_MATH_CM7 -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/DSP/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-A_os-2f-modules-2f-audio
+
+clean-A_os-2f-modules-2f-audio:
+	-$(RM) ./A_os/modules/audio/distortion.cyclo ./A_os/modules/audio/distortion.d ./A_os/modules/audio/distortion.o ./A_os/modules/audio/distortion.su ./A_os/modules/audio/echo.cyclo ./A_os/modules/audio/echo.d ./A_os/modules/audio/echo.o ./A_os/modules/audio/echo.su ./A_os/modules/audio/flanger.cyclo ./A_os/modules/audio/flanger.d ./A_os/modules/audio/flanger.o ./A_os/modules/audio/flanger.su ./A_os/modules/audio/iir.cyclo ./A_os/modules/audio/iir.d ./A_os/modules/audio/iir.o ./A_os/modules/audio/iir.su ./A_os/modules/audio/noise.cyclo ./A_os/modules/audio/noise.d ./A_os/modules/audio/noise.o ./A_os/modules/audio/noise.su ./A_os/modules/audio/oscillator_core.cyclo ./A_os/modules/audio/oscillator_core.d ./A_os/modules/audio/oscillator_core.o ./A_os/modules/audio/oscillator_core.su ./A_os/modules/audio/oscillators.cyclo ./A_os/modules/audio/oscillators.d ./A_os/modules/audio/oscillators.o ./A_os/modules/audio/oscillators.su ./A_os/modules/audio/pitch_shift.cyclo ./A_os/modules/audio/pitch_shift.d ./A_os/modules/audio/pitch_shift.o ./A_os/modules/audio/pitch_shift.su ./A_os/modules/audio/reverb.cyclo ./A_os/modules/audio/reverb.d ./A_os/modules/audio/reverb.o ./A_os/modules/audio/reverb.su ./A_os/modules/audio/tremolo.cyclo ./A_os/modules/audio/tremolo.d ./A_os/modules/audio/tremolo.o ./A_os/modules/audio/tremolo.su ./A_os/modules/audio/vca.cyclo ./A_os/modules/audio/vca.d ./A_os/modules/audio/vca.o ./A_os/modules/audio/vca.su ./A_os/modules/audio/vibrato.cyclo ./A_os/modules/audio/vibrato.d ./A_os/modules/audio/vibrato.o ./A_os/modules/audio/vibrato.su ./A_os/modules/audio/wah.cyclo ./A_os/modules/audio/wah.d ./A_os/modules/audio/wah.o ./A_os/modules/audio/wah.su
+
+.PHONY: clean-A_os-2f-modules-2f-audio
+
