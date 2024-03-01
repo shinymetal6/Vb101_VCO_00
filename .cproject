@@ -86,7 +86,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="modules/audio/oscillator_core_OLD.c|drivers/wireless" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
+						<entry excluding="modules/audio/biquad_exclude.c|modules/audio/pitch_shift.c|drivers/codec/wm8994_orig.c|modules/audio/oscillator_core_OLD.c|drivers/wireless" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os_AudioProcesses"/>
 						<entry excluding="Startup" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
@@ -173,7 +173,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="modules/audio/oscillator_core_OLD.c|drivers/wireless" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
+						<entry excluding="modules/audio/biquad_exclude.c|modules/audio/pitch_shift.c|drivers/codec/wm8994_orig.c|modules/audio/oscillator_core_OLD.c|drivers/wireless" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os_AudioProcesses"/>
 						<entry excluding="Startup" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>

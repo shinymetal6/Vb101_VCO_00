@@ -18,6 +18,7 @@ RM := rm -rf
 -include A_os_AudioProcesses/STM32H743/AudioProcesses/subdir.mk
 -include A_os/modules/xmodem/subdir.mk
 -include A_os/modules/modbus/subdir.mk
+-include A_os/modules/dcc/subdir.mk
 -include A_os/modules/audio/subdir.mk
 -include A_os/kernel/startup/STM32H743/subdir.mk
 -include A_os/kernel/flash_updater/STM32H743/subdir.mk

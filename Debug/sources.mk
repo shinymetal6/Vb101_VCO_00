@@ -43,6 +43,7 @@ A_os/kernel/HwDevices \
 A_os/kernel/flash_updater/STM32H743 \
 A_os/kernel/startup/STM32H743 \
 A_os/modules/audio \
+A_os/modules/dcc \
 A_os/modules/modbus \
 A_os/modules/xmodem \
 A_os_AudioProcesses/STM32H743/AudioProcesses \
