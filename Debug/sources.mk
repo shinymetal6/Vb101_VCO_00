@@ -38,6 +38,10 @@ A_os/drivers/internal_dac \
 A_os/drivers/lcd_ili9341 \
 A_os/drivers/lcd_st7735 \
 A_os/drivers/rmii \
+A_os/drivers/sensors/lis2dw12 \
+A_os/drivers/sensors/lps22df \
+A_os/drivers/sensors/sht40 \
+A_os/drivers/sensors/stts22h \
 A_os/kernel \
 A_os/kernel/HwDevices \
 A_os/kernel/flash_updater/STM32H743 \

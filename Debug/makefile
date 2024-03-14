@@ -24,6 +24,10 @@ RM := rm -rf
 -include A_os/kernel/flash_updater/STM32H743/subdir.mk
 -include A_os/kernel/HwDevices/subdir.mk
 -include A_os/kernel/subdir.mk
+-include A_os/drivers/sensors/stts22h/subdir.mk
+-include A_os/drivers/sensors/sht40/subdir.mk
+-include A_os/drivers/sensors/lps22df/subdir.mk
+-include A_os/drivers/sensors/lis2dw12/subdir.mk
 -include A_os/drivers/rmii/subdir.mk
 -include A_os/drivers/lcd_st7735/subdir.mk
 -include A_os/drivers/lcd_ili9341/subdir.mk
